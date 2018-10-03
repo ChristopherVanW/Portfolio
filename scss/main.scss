@@ -29,16 +29,22 @@ h3 {
         font-size: 6rem;
     }
     &.sm-heading{
-        margin-bottom: 2rem;
-        padding: 0.2rem 1rem;
+        margin-bottom: 0;
+        padding: 0.2rem 5rem;
         //background: rgba(lighten($primary-color, 2), 0.9);
     }
+}
+h6 {
+    font-size: 1em;
+    margin-top: 0;
+    padding-left: 1rem;
 }
 
 a{
     color: #fff;
     text-decoration: none;
 }
+
 
 header{
     position: fixed;
@@ -75,6 +81,7 @@ main {
     }
     
 }
+
 
 .about-info{
     display: grid;
@@ -114,10 +121,31 @@ main {
     .job{
         background: lighten($primary-color, 5);
         padding: 0.5rem;
-        border-bottom: $secondary-color 5px solid;
+        border-bottom: $secondary-color 2px solid;
         &:hover{
             border: #aaa 2px solid; 
-            font-weight: 600;   
+            font-weight: 600;  
+            color: $secondary-color; 
+        }
+    }
+    .job-logo {
+
+        img {
+            margin: 0 1rem 0 0;
+            //width: 100%;
+            position: justify;
+            //float: left;
+            max-height: 100px;
+            border: $primary-color 5px solid;
+            border-radius: 10%;
+            &:hover{
+                border-bottom: $secondary-color 7px solid;
+            }   
+        }
+         &.mod img{
+            display: block;
+            margin-left: 0;
+            float:right;
         }
     }
 }
