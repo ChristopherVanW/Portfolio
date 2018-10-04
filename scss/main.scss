@@ -14,7 +14,7 @@ body {
     color: set-text-color($primary-color);
     height:100%;
     margin:0;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: Verdana, Geneva, sans-serif;
     line-height: 1.5;
 }
 
@@ -129,23 +129,19 @@ main {
         }
     }
     .job-logo {
+        //position: relative;
 
         img {
-            margin: 0 1rem 0 0;
-            //width: 100%;
+            display:block;
             position: justify;
-            //float: left;
-            max-height: 100px;
+            max-height: 85px;
             border: $primary-color 5px solid;
             border-radius: 10%;
+            margin: 1em;
+            padding: 0;
             &:hover{
                 border-bottom: $secondary-color 7px solid;
             }   
-        }
-         &.mod img{
-            display: block;
-            margin-left: 0;
-            float:right;
         }
     }
 }
