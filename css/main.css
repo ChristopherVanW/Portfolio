@@ -102,7 +102,7 @@ body {
   color: #fff;
   height: 100%;
   margin: 0;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: Verdana, Geneva, sans-serif;
   line-height: 1.5; }
   body#bg-img {
     background: url(../img/background.png);
@@ -197,17 +197,15 @@ main {
       font-weight: 600;
       color: #c3f804; }
   .about-info .job-logo img {
-    margin: 0 1rem 0 0;
+    display: block;
     position: justify;
-    max-height: 100px;
+    max-height: 85px;
     border: #525264 5px solid;
-    border-radius: 10%; }
+    border-radius: 10%;
+    margin: 1em;
+    padding: 0; }
     .about-info .job-logo img:hover {
       border-bottom: #c3f804 7px solid; }
-  .about-info .job-logo.mod img {
-    display: block;
-    margin-left: 0;
-    float: right; }
 
 .projects {
   display: grid;
