@@ -40,14 +40,14 @@
   .menu-nav {
     margin: 0;
     padding: 0;
-    background: #445;
+    background: #525264;
     list-style: none;
     transform: translate3d(0, -100%, 0);
     transition: all 0.5s ease-out; }
     .menu-nav.show {
       transform: translate3d(0, 0, 0); }
   .menu-branding {
-    background: #2d2d39;
+    background: #3b3b48;
     opacity: 1;
     transform: translate3d(0, 100%, 0);
     transition: all 0.5s ease-out; }
@@ -61,14 +61,14 @@
       color: black;
       align-content: center;
       border-radius: 50%;
-      border: solid 3px #eece1a; }
+      border: solid 3px #c3f804; }
   .menu .nav-item {
     transform: translate3d(600px, 0, 0);
     transition: all 0.5s ease-out; }
     .menu .nav-item.show {
       transform: translate3d(0, 0, 0); }
     .menu .nav-item.current > a {
-      color: #eece1a; }
+      color: #c3f804; }
   .menu .nav-link {
     display: inline-block;
     position: relative;
@@ -80,7 +80,7 @@
     text-decoration: none;
     transition: all 0.5s ease-out; }
     .menu .nav-link:hover {
-      color: #eecd18; }
+      color: #c1f504; }
 
 .nav-item:nth-child(1) {
   transition-delay: 0.1s; }
@@ -98,7 +98,7 @@
   box-sizing: border-box; }
 
 body {
-  background: #445;
+  background: #525264;
   color: #fff;
   height: 100%;
   margin: 0;
@@ -116,7 +116,7 @@ body {
     width: 100%;
     height: 100%;
     z-index: -1;
-    background: rgba(68, 68, 85, 0.5); }
+    background: rgba(82, 82, 100, 0.5); }
 
 h1,
 h2,
@@ -130,8 +130,13 @@ h3 {
   h1.sm-heading,
   h2.sm-heading,
   h3.sm-heading {
-    margin-bottom: 2rem;
-    padding: 0.2rem 1rem; }
+    margin-bottom: 0;
+    padding: 0.2rem 5rem; }
+
+h6 {
+  font-size: 1em;
+  margin-top: 0;
+  padding-left: 1rem; }
 
 a {
   color: #fff;
@@ -143,7 +148,7 @@ header {
   width: 100%; }
 
 .text-secondary {
-  color: #eece1a; }
+  color: #c3f804; }
 
 main {
   padding: 4rem;
@@ -157,7 +162,7 @@ main {
     main .icons a {
       padding: 0.4rem; }
       main .icons a:hover {
-        color: #eece1a;
+        color: #c3f804;
         transition: all 0.5s ease-out; }
 
 .about-info {
@@ -169,7 +174,7 @@ main {
     grid-area: bioimage;
     margin: auto;
     border-radius: 50%;
-    border: #eece1a 3px solid; }
+    border: #c3f804 3px solid; }
   .about-info .bio {
     grid-area: bio;
     font-size: 1.5rem; }
@@ -184,12 +189,25 @@ main {
   .about-info .job-5 {
     grid-area: job5; }
   .about-info .job {
-    background: #4f4f63;
+    background: #5d5d72;
     padding: 0.5rem;
-    border-bottom: #eece1a 5px solid; }
+    border-bottom: #c3f804 2px solid; }
     .about-info .job:hover {
       border: #aaa 2px solid;
-      font-weight: 600; }
+      font-weight: 600;
+      color: #c3f804; }
+  .about-info .job-logo img {
+    margin: 0 1rem 0 0;
+    position: justify;
+    max-height: 100px;
+    border: #525264 5px solid;
+    border-radius: 10%; }
+    .about-info .job-logo img:hover {
+      border-bottom: #c3f804 7px solid; }
+  .about-info .job-logo.mod img {
+    display: block;
+    margin-left: 0;
+    float: right; }
 
 .projects {
   display: grid;
@@ -201,7 +219,7 @@ main {
     border: 3px #fff solid; }
     .projects img:hover {
       opacity: 0.5;
-      border-color: #eece1a;
+      border-color: #c3f804;
       transition: all 0.5s ease-out; }
 
 .boxes {
@@ -218,7 +236,7 @@ main {
     transition: all 0.5s ease-out; }
     .boxes div:hover {
       padding: 0.5rem 1.5rem;
-      background: #eece1a;
+      background: #c3f804;
       color: #000; }
       .boxes div:hover span {
         color: #000; }
@@ -229,7 +247,7 @@ main {
   border: 0;
   margin-bottom: 0.3rem; }
   .btn:hover, .btn-dark:hover, .btn-light:hover {
-    background: #eece1a;
+    background: #c3f804;
     color: #000; }
 
 .btn-dark {
@@ -237,13 +255,13 @@ main {
   color: #fff; }
 
 .btn-light {
-  background: #c6c6d2;
+  background: #d7d7de;
   color: #333; }
 
 #main-footer {
   text-align: center;
   padding: 1rem;
-  background: #2d2d39;
+  background: #3b3b48;
   color: #fff;
   height: 60px; }
 
