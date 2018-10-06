@@ -156,7 +156,12 @@ main {
   main#home {
     overflow: hidden; }
     main#home h1 {
-      margin-top: 20vh; }
+      margin-top: 20vh;
+      color: tint(#525264, 30%); }
+    main#home h2 {
+      max-width: 470px; }
+      main#home h2.highlight {
+        background-color: rgba(0, 0, 0, 0.5); }
   main .icons {
     margin-top: 1rem; }
     main .icons a {
@@ -290,7 +295,13 @@ main {
 @media screen and (max-width: 768px) {
   main {
     align-items: center;
-    text-align: center; }
+    text-align: left; }
+    main#home h1 {
+      font-size: 5rem; }
+    main#home h2 {
+      margin-left: 0;
+      padding-left: 1rem;
+      font-size: 1rem; }
     main .lg-heading {
       line-height: 1;
       margin-bottom: 1rem; }
@@ -320,6 +331,7 @@ main {
 
 @media screen and (max-width: 500px) {
   main#home h1 {
+    font-size: 4rem;
     margin-top: 10vh; }
   .capability {
     grid-template-columns: 1fr; } }
