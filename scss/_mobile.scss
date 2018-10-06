@@ -13,8 +13,16 @@
 
 @include mediaMd {
     main{
+        &#home h1{
+            font-size: 5rem;
+        }
+        &#home h2{
+            margin-left: 0;
+            padding-left: 1rem;
+            font-size: 1rem; 
+        }
         align-items: center;
-        text-align: center;
+        text-align: left;
 
         .lg-heading{
             line-height:1;
@@ -64,6 +72,7 @@
 
 @include mediaSm {
     main#home h1{
+        font-size: 4rem;
         margin-top: 10vh;
     }
     .capability{
