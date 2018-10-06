@@ -227,6 +227,8 @@ main {
   align-items: center;
   margin-top: 1rem; }
   .boxes div {
+    overflow: hidden;
+    word-wrap: break-word;
     font-size: 2rem;
     border: 3px #fff solid;
     padding: 1.5rem 2.5;
